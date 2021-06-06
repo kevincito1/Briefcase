@@ -1,0 +1,260 @@
+header {
+    background-color: rgb(255, 153, 0);
+    height: 60px;
+    text-align: center;   
+}  
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+}
+
+.container-main-content {
+    background-color: rgb(0,0,0);
+}
+
+h1 {
+    text-align: center;
+}
+
+.presentation p {
+    font-size: 2rem;
+    color: white;
+    font-weight: 100;
+}
+
+.strong {
+    color: rgb(255, 153, 0);
+    font-size: 4rem;
+}
+
+.projects {
+    height: 300px;
+    border: 1px solid black;
+}
+
+
+
+@keyframes animation-first-project {
+    0% {
+        transform: scale(1); 
+    }
+
+    25% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes uno {
+    100% {
+        transform:translateX(0%);
+    }   
+
+}
+
+.first-project {
+    height: 49px;
+    background-color: rgb(255, 153, 0);
+    border: 1px solid black;
+}
+
+.first-project a {
+    color: rgb(0, 0, 0);
+}
+
+.first-project a:hover {
+    animation-name: animation-first-project;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.first-animation {
+    transform: translateX(-100%);
+}
+
+.restore:hover .first-animation {
+    animation-name: uno;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.second-project {
+    height: 49px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.second-project a {
+    color: rgb(255, 153, 0);
+}
+
+.second-project a:hover {
+    animation-name: animation-first-project;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.second-animation {
+    transform: translateX(-100%);
+}
+
+.restore:hover .second-animation {
+    animation-name: uno;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.third-project {
+    height: 49px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.third-project a {
+    color: rgb(255, 255, 255);
+}
+
+.third-project a:hover {
+    animation-name: animation-first-project;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.third-animation {
+    transform: translateX(-100%);
+}
+
+.restore:hover .third-animation {
+    animation-name: uno;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    border: 1px solid white;
+}
+
+.fourth-project {
+    height: 49px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.fourth-project a {
+    color: rgb(255, 153, 0);
+}
+
+.fourth-project a:hover {
+    animation-name: animation-first-project;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.fourth-animation {
+    transform: translateX(-100%);
+}
+
+.restore:hover .fourth-animation {
+    animation-name: uno;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.fifth-project {
+    height: 49px;
+    background-color: rgb(255, 153, 0);
+}
+
+.fifth-project a {
+    color: rgb(0, 0, 0);
+}
+
+.fifth-project a:hover {
+    animation-name: animation-first-project;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.fifth-animation {
+    transform: translateX(-100%);
+}
+
+.restore:hover .fifth-animation {
+    animation-name: uno;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.sixth-project {
+    height: 49px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.sixth-project a {
+    color: rgb(255, 255, 255);
+}
+
+.sixth-project a:hover {
+    animation-name: animation-first-project;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.sixth-animation {
+    transform: translateX(-100%);
+}
+
+.restore:hover .sixth-animation {
+    animation-name: uno;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.projects {
+    flex-direction: column;
+    background-color: black;
+}
+
+.contact {
+    font-family: 'Monofett', cursive;
+    font-size: 2rem;
+    background-color: rgb(255, 153, 0);
+}
+
+button {
+    padding: 1%;
+    font-family: 'Monofett', cursive;
+    font-size: 1.5rem;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+/*.sub-menu {
+    display: none;
+}
+*/
+
+#btn-menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    padding: 10px;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}

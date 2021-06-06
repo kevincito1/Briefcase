@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+label img {
+    height: 30px;
+    width: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bungee Shade', cursive;
+}
+
+p {
+    font-family: 'Monofett', cursive;
+}
+
+a {
+    text-decoration:none;
+    font-family: 'Monofett', cursive;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 2px;
+}
+
+li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+}
+
+.webs a {
+    color: rgb(0, 0, 0);
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}

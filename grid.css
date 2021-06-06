@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+}
+
+.column-4 {
+    width: 33.333%;
+    padding: 1rem;
+}
+
+.column-8 {
+    width: 66.666%;
+    padding: 16px;
+}
+
+.container-main-content {
+    width: 100%;
+    padding: 16px;
+}
+

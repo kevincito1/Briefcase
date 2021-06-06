@@ -1,0 +1,25 @@
+@media screen and (max-width: 667px){
+    header {
+        justify-content: flex-end;
+    }
+    
+    header label {
+        display: block;
+    }
+
+    .sub-menu {
+        position: absolute;
+        width: 70%;
+        display: none;
+        transition: all 1s;
+    }
+
+    .sub-menu ul {
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .sub-menu {
+        display: block;
+    }
+
+}
